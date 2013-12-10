@@ -106,3 +106,9 @@ class Finder
     nil
   end
 end
+
+puts "Hello! Thanks for using i_want_to_go_to_there."
+puts "What's the address of your starting location?"
+start_address = gets.chomp
+puts "Ok, what are you searching for?"
+Finder.get_directions(start_address, gets.chomp)
